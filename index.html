@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel Landing page </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Landing Page </h1>
+        <p>Your go-to solution for awesome stuff!</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </header>
+
+    <section id="services">
+        <h2>Our services</h2>
+        <div class="serives-card">Service 1</div>
+        <div class="serives-card">Service 2</div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <!-- Admin Panel (Basic Backend Logic in JavaScript) -->
+     <div id="adminPanel" style="display:none;">
+        <h2>Admin Panel</h2>
+        <p>Mange content here</p>
+        <button onclick="toggleAdminPanel()">Close Admin Panel</button>
+        <form id="adminForm">
+            <input type="text" id="updateTitle" placeholder="Update Landing Title">
+            <button type="submit">Update</button>
+        </form>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
