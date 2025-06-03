@@ -1,10 +1,3 @@
-Sure Muzamil! 🎉 Here's a nicely formatted **README.md** file with relevant emojis, professional tone, and clear structure for your **Admin Panel Landing Page** project.
-
----
-
-### ✅ **README.md Content**
-
-```markdown
 # 🚀 Admin Panel Landing Page
 
 A clean and simple landing page with a built-in admin panel to simulate basic backend functionality using HTML, CSS, and JavaScript. Perfect for beginners or as a base template for your web projects!
